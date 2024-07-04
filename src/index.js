@@ -15,11 +15,11 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   
   <Auth0Provider
-  domain="dev-kdyimig5qbt8dxpa.us.auth0.com"
-  clientId="94pFDAFGhsN6zVj35wyykIxpAGFKls6J"
-  authorizationParams={{
-    redirect_uri: window.location.origin
-  }}
+   domain="dev-0twjckix2q77i3ea.us.auth0.com"
+    clientId="95vyrI5ybBaKcNoXwv1pNDlBjN4Mjsc2"
+    authorizationParams={{
+      redirect_uri: window.location.origin
+    }}
 >
   <Entry/>
 
